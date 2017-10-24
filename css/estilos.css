@@ -9,7 +9,8 @@
 
 
 body{
-	background:  #DBDBDB;
+	background-image: url('../fondo_form.jpg');
+	background-color:  #ccc;
 	font-family: 'Trebuchet MS';
 }
 
