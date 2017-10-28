@@ -10,12 +10,32 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
-	<script type="text/javascript" src="js/jquery-3.2.1"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/script.js"></script>
+	
 </head>
 <body>
+	
+<!--
+	 <div class="modal_wrap">
+		<div class="mensaje_modal">
+			<h3>Errores Encontrados</h3>
+			
+			<p>Escriba un Nombre</p>
+			<p>Ingrese un Email</p>
+			<p>Escriba un Mensaje</p>
+
+			<span id="btnClose">Cerrar</span>
+
+		</div>
+	</div>	-->
+
+
+
+
+
 	<section class="form_wrap">
+		
 		<section class="contact_info">
 
 			<section class="info_title">
@@ -36,13 +56,13 @@
 			<div class="user_info">
 
 				<label for="names">Nombres *</label>
-				<input type="text" name="names">
+				<input type="text" id="names">
 
 				<label for="phone">Telefono /Celular</label>
-				<input type="text" name="phone">
+				<input type="text" id="phone">
 
 				<label for="email">Correo Electronico *</label>
-				<input type="text" name="email">
+				<input type="text" id="email">
 
 				<label for="mensaje">Mensaje *</label>
 				<textarea id="mensaje"></textarea>
